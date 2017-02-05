@@ -1,0 +1,60 @@
+.container{
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#get-trends{
+  font-size: 18px;
+}
+#get-trends:focus{
+  outline: none;
+}
+/*.chart rect {
+  fill: steelblue;
+}*/
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+/*.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}*/
+.chart{
+  width: 960px;
+  height: 500px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+#chartarea {
+			height: 500px;
+			width: 960px;
+			border: 1px solid black;
+		}
+    #chart div {
+      display: inline-block;
+      background: #4285F4;
+      width: 20px;
+      margin-right: 3px;
+    }
+
+    .bar {
+      fill: steelblue;
+    }
+
+    .bar:hover {
+      fill: brown;
+    }
+
+    .axis--x path {
+      display: none;
+    }
